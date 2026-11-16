@@ -1,0 +1,489 @@
+{
+  "tileset": {
+    "albedo": "overtakentilesetnew.png",
+    "emission": "overtakentilesetemis.png",
+    "alpha": false
+  },
+  "collisions": "overtakentilesetnew.col",
+  "tile_size": [
+    16,
+    16
+  ],
+  "shadow_collision_mask": 23,
+  "map": "level_1_floor.csv",
+  "vents": {
+    "tileset": {
+      "albedo": "vents.png",
+      "alpha": true
+    },
+    "map": "level_1_vents.csv",
+    "collisions": "vents.col"
+  },
+  "objects": [
+    {
+      "type": "player_spawn",
+      "position": [
+        40,
+        568.0
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "position": [
+        304.0,
+        560.0
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "position": [
+        400.0,
+        320.0
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "position": [
+        224.0,
+        368.0
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "position": [
+        176.0,
+        304.0
+      ]
+    },
+    {
+      "type": "checkpoint",
+      "position": [
+        272.0,
+        176.0
+      ]
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        160.0,
+        544.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        224.0,
+        544.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        304.0,
+        528.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        304.0,
+        480.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        304.0,
+        432.0
+      ]
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        272.0,
+        384.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        160.0,
+        304.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        160.0,
+        128.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        176.0,
+        192.0
+      ]
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        272.0,
+        160.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        448.0,
+        176.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        448.0,
+        128.0
+      ],
+      "open": true
+    },
+    {
+      "type": "obstacle",
+      "name": "box_0",
+      "position": [
+        144.0,
+        192.0
+      ],
+      "material": {
+        "albedo": "box.png",
+        "emission": "boxemis.png"
+      },
+      "required_tags": [
+        "breaks_boxes"
+      ]
+    },
+    {
+      "type": "obstacle",
+      "name": "box_1",
+      "position": [
+        144.0,
+        208.0
+      ],
+      "material": {
+        "albedo": "box.png",
+        "emission": "boxemis.png"
+      },
+      "required_tags": [
+        "breaks_boxes"
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "possession_tutorial_enemy",
+      "position": [
+        256.0,
+        464.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            256.0,
+            464.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 5.0,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "minibot_0",
+      "position": [
+        336.0,
+        272.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            336.0,
+            336.0
+          ]
+        },
+        {
+          "go_to": [
+            288.0,
+            336.0
+          ]
+        },
+        {
+          "go_to": [
+            288.0,
+            384.0
+          ]
+        },
+        {
+          "go_to": [
+            352.0,
+            384.0
+          ]
+        },
+        {
+          "go_to": [
+            352.0,
+            320.0
+          ]
+        },
+        {
+          "go_to": [
+            272.0,
+            320.0
+          ]
+        },
+        {
+          "go_to": [
+            272.0,
+            272.0
+          ]
+        },
+        {
+          "go_to": [
+            336.0,
+            272.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "minibot_1",
+      "position": [
+        112.0,
+        352.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            144.0,
+            352.0
+          ]
+        },
+        {
+          "go_to": [
+            144.0,
+            400.0
+          ]
+        },
+        {
+          "go_to": [
+            80.0,
+            400.0
+          ]
+        },
+        {
+          "go_to": [
+            80.0,
+            352.0
+          ]
+        },
+        {
+          "go_to": [
+            112.0,
+            352.0
+          ]
+        },
+        {
+          "go_to": [
+            112.0,
+            272.0
+          ]
+        },
+        {
+          "go_to": [
+            112.0,
+            352.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "stationary_enemy_0",
+      "position": [
+        96.0,
+        304.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            96.0,
+            304.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 5.0,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "stationary_enemy_1",
+      "position": [
+        128.0,
+        304.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            128.0,
+            304.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 5.0,
+            "angle": 3.14
+          }
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "strongbot",
+      "name": "strongbot_0",
+      "position": [
+        208.0,
+        144.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            208.0,
+            256.0
+          ]
+        },
+        {
+          "go_to": [
+            128.0,
+            256.0
+          ]
+        },
+        {
+          "go_to": [
+            128.0,
+            200.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 3.0,
+            "angle": 0
+          }
+        },
+        {
+          "go_to": [
+            128.0,
+            144.0
+          ]
+        },
+        {
+          "go_to": [
+            208.0,
+            144.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "minibot_2",
+      "position": [
+        224.0,
+        144.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            224.0,
+            256.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 2.0,
+            "angle": 3.14
+          }
+        },
+        {
+          "go_to": [
+            224.0,
+            144.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 2.0,
+            "angle": 3.14
+          }
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "flybot",
+      "name": "flybot_0",
+      "position": [
+        320.0,
+        112.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            320.0,
+            112.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 5.0,
+            "angle": 1.57
+          }
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "name": "win_zone",
+      "position": [
+        376.0,
+        40.0
+      ],
+      "size": [
+        32.0,
+        32.0
+      ],
+      "action": "win"
+    }
+  ]
+}

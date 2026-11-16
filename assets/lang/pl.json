@@ -1,0 +1,46 @@
+{
+  "_lang_name": "Polski",
+  "_attribution": "Przetłumaczone przez Chilli",
+  "menu": {
+    "subtitle": "wersja prototypowa",
+    "play": "Graj",
+    "level": "Poziom {{level}}",
+    "options": "Opcje",
+    "best_time": "Najlepszy czas: {{best_time}}"
+  },
+  "interaction": {
+    "generic": "Interakcja",
+    "break": "Zniszcz",
+    "overtake": "Przejmij",
+    "open_vent": "Otwórz went",
+    "enter_vent": "Wejdź do wentylacji",
+    "exit_vent": "Wyjdź z wentylacji"
+  },
+  "pause": {
+    "pause": "PAUZA",
+    "options": "OPCJE",
+    "resume": "Wznów",
+    "volume": {
+      "master": "Głośność główna",
+      "sfx": "Głośność efektów",
+      "music": "Głośność muzyki"
+    },
+    "rumble": "Wibracje gamepada",
+    "value_true": "WŁ",
+    "value_false": "WYŁ",
+    "language": "Język",
+    "exit": "Wyjdź z gry"
+  },
+  "completion": {
+    "title": "Poziom ukończony!",
+    "text": "Udało ci się ukończyć poziom w {{time}}!\nNajlepszy czas: {{best_time}}.",
+    "try_again": "Spróbuj jeszcze raz",
+    "next_level": "Następny poziom",
+    "end_game": "Koniec gry",
+    "back_to_title": "Wróć do menu"
+  },
+  "win": {
+    "title": "Wygrałxś!",
+    "text": "Udało Ci się przejść demo Overtaken! Zapraszamy do zaobserwowania nas na itch.io i mamy nadzieję, że Ci się spodobało!"
+  }
+}

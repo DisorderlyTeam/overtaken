@@ -1,0 +1,358 @@
+{
+  "tileset": {
+    "albedo": "overtakentilesetnew.png",
+    "emission": "overtakentilesetemis.png",
+    "alpha": false
+  },
+  "collisions": "overtakentilesetnew.col",
+  "tile_size": [
+    16,
+    16
+  ],
+  "shadow_collision_mask": 23,
+  "map": "level_2_floor.csv",
+  "vents": {
+    "tileset": {
+      "albedo": "vents.png",
+      "alpha": true
+    },
+    "map": "level_2_vents.csv",
+    "collisions": "vents.col"
+  },
+  "objects": [
+    {
+      "type": "player_spawn",
+      "position": [
+        200.0,
+        472.0
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "enemy_0",
+      "position": [
+        184.0,
+        184.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            184.0,
+            288.0
+          ]
+        },
+        {
+          "go_to": [
+            136.0,
+            304.0
+          ]
+        },
+        {
+          "go_to": [
+            136.0,
+            408.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 2.0,
+            "angle": 1.57
+          }
+        },
+        {
+          "go_to": [
+            184.0,
+            408.0
+          ]
+        },
+        {
+          "go_to": [
+            184.0,
+            304.0
+          ]
+        },
+        {
+          "go_to": [
+            136.0,
+            288.0
+          ]
+        },
+        {
+          "go_to": [
+            136.0,
+            184.0
+          ]
+        },
+        {
+          "go_to": [
+            216.0,
+            184.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 2.0,
+            "angle": 4.71
+          }
+        },
+        {
+          "go_to": [
+            184.0,
+            184.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "minibot",
+      "name": "enemy_1",
+      "position": [
+        288.0,
+        96.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            368.0,
+            96.0
+          ]
+        },
+        {
+          "go_to": [
+            368.0,
+            192.0
+          ]
+        },
+        {
+          "go_to": [
+            320.0,
+            208.0
+          ]
+        },
+        {
+          "go_to": [
+            320.0,
+            312.0
+          ]
+        },
+        {
+          "go_to": [
+            256.0,
+            336.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 1.0,
+            "angle": 0
+          }
+        },
+        {
+          "wait": {
+            "duration_s": 1.0,
+            "angle": 3.14
+          }
+        },
+        {
+          "wait": {
+            "duration_s": 1.0,
+            "angle": 0
+          }
+        },
+        {
+          "wait": {
+            "duration_s": 1.0,
+            "angle": 3.14
+          }
+        },
+        {
+          "go_to": [
+            256.0,
+            336.0
+          ]
+        },
+        {
+          "go_to": [
+            320.0,
+            312.0
+          ]
+        },
+        {
+          "go_to": [
+            320.0,
+            208.0
+          ]
+        },
+        {
+          "go_to": [
+            368.0,
+            192.0
+          ]
+        },
+        {
+          "go_to": [
+            368.0,
+            96.0
+          ]
+        },
+        {
+          "go_to": [
+            288.0,
+            96.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "flybot",
+      "name": "enemy_2",
+      "position": [
+        272.0,
+        216.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            216.0,
+            280.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 3.0,
+            "angle": 3.14
+          }
+        },
+        {
+          "go_to": [
+            272.0,
+            216.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 3.0,
+            "angle": 1.57
+          }
+        }
+      ]
+    },
+    {
+      "type": "obstacle",
+      "name": "box_0",
+      "position": [
+        224.0,
+        208.0
+      ],
+      "material": {
+        "albedo": "box.png",
+        "emission": "boxemis.png"
+      },
+      "required_tags": [
+        "breaks_boxes"
+      ]
+    },
+    {
+      "type": "obstacle",
+      "name": "box_1",
+      "position": [
+        240.0,
+        96.0
+      ],
+      "material": {
+        "albedo": "box.png",
+        "emission": "boxemis.png"
+      },
+      "required_tags": [
+        "breaks_boxes"
+      ]
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        304.0,
+        96.0
+      ],
+      "open": false
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        272.0,
+        256.0
+      ]
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        192.0,
+        464.0
+      ],
+      "open": true
+    },
+    {
+      "type": "vent_entrance",
+      "position": [
+        336.0,
+        368.0
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy_type": "strongbot",
+      "name": "enemy_4",
+      "position": [
+        264.0,
+        152.0
+      ],
+      "patrol": [
+        {
+          "go_to": [
+            264.0,
+            152.0
+          ]
+        },
+        {
+          "wait": {
+            "duration_s": 3.0,
+            "angle": 2.97
+          }
+        },
+        {
+          "wait": {
+            "duration_s": 1.0,
+            "angle": 3.14
+          }
+        },
+        {
+          "wait": {
+            "duration_s": 3.0,
+            "angle": 3.32
+          }
+        },
+        {
+          "wait": {
+            "duration_s": 1.0,
+            "angle": 3.14
+          }
+        }
+      ]
+    },
+    {
+      "type": "trigger",
+      "name": "win_zone",
+      "position": [
+        256.0,
+        544.0
+      ],
+      "size": [
+        48.0,
+        48.0
+      ],
+      "action": "win"
+    }
+  ]
+}

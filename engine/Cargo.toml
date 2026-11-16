@@ -1,0 +1,34 @@
+[package]
+name = "engine"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+tracing.workspace = true
+thiserror.workspace = true
+
+winit = "0.30.13"  # Window management
+wgpu = "28.0.0"    # Rendering
+glam = { version = "0.32.1", features = ["glam-assert", "bytemuck"] } # Math
+image = "0.25.10"  # Loading sprites
+kira = { version = "0.12.1", default-features = false, features = ["cpal", "ogg", "vorbis"] } # Audio
+pollster = "0.4.0" # Async executor
+gilrs = "=0.11.1"   # Gamepad input
+gilrs-core = "=0.6.7"
+glyphon = "0.10.0" # Font rendering
+
+rand = "0.10.1"
+bitflags = "2.11.0"
+compact_str.workspace = true
+bytemuck = "1.25.0" # Converting to/from raw bytes
+serde.workspace = true
+serde_json.workspace = true
+enum-assoc = "1.4.2"
+
+[dev-dependencies]
+pretty_assertions = "1"
+test-log = { version = "0.2.19", default-features = false, features = ["trace"] }

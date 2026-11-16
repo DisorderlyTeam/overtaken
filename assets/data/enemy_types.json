@@ -1,0 +1,96 @@
+{
+  "minibot": {
+    "use_flying_nav": false,
+    "tags": [
+      "can_open_vents"
+    ],
+    "idle_speed": 40.0,
+    "alerted_speed": 110.0,
+    "overtake_duration_s": 10.0,
+    "overtaken_speed": 130.0,
+    "ignored_collision_layers_mask": 0,
+    "animation": "assets/textures/minibot.anim.json",
+    "alert_sound": "assets/audio/sfx/minibot_alert.ogg",
+    "possess_sound": "assets/audio/sfx/minibot_possess.ogg",
+    "leave_sound": "assets/audio/sfx/bot_leave.ogg",
+    "material": {
+      "albedo": "minibot.png",
+      "emission": "minibotemis.png",
+      "alpha": true
+    },
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      0.33333334,
+      0.2
+    ],
+    "sprite_size": [
+      16.0,
+      16.0
+    ]
+  },
+  "flybot": {
+    "use_flying_nav": true,
+    "tags": [],
+    "idle_speed": 100.0,
+    "alerted_speed": 120.0,
+    "overtake_duration_s": 10.0,
+    "overtaken_speed": 150.0,
+    "ignored_collision_layers_mask": 8,
+    "animation": "assets/textures/flybot.anim.json",
+    "alert_sound": "assets/audio/sfx/flybot_alert.ogg",
+    "possess_sound": "assets/audio/sfx/flybot_possess.ogg",
+    "leave_sound": "assets/audio/sfx/bot_leave.ogg",
+    "material": {
+      "albedo": "flybot.png",
+      "emission": "flybotemis.png",
+      "alpha": true
+    },
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      0.25,
+      0.2
+    ],
+    "sprite_size": [
+      16.0,
+      16.0
+    ]
+  },
+  "strongbot": {
+    "use_flying_nav": false,
+    "tags": [
+      "breaks_boxes"
+    ],
+    "idle_speed": 30.0,
+    "alerted_speed": 80.0,
+    "overtake_duration_s": 5.0,
+    "overtaken_speed": 100.0,
+    "ignored_collision_layers_mask": 0,
+    "animation": "assets/textures/strongbot.anim.json",
+    "alert_sound": "assets/audio/sfx/strongbot_alert.ogg",
+    "possess_sound": "assets/audio/sfx/strongbot_possess.ogg",
+    "leave_sound": "assets/audio/sfx/strongbot_leave.ogg",
+    "material": {
+      "albedo": "strongbot.png",
+      "emission": "strongbotemis.png",
+      "alpha": true
+    },
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      0.25,
+      0.2
+    ],
+    "sprite_size": [
+      32.0,
+      32.0
+    ]
+  }
+}

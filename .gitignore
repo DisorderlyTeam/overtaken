@@ -1,0 +1,10 @@
+.*
+!.git*
+target/
+export/
+!.exportignore
+
+*.tiled-session
+
+# Generated dependency sources (see `just vendor`)
+vendor/

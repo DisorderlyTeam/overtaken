@@ -1,0 +1,46 @@
+{
+  "_lang_name": "Español",
+  "_attribution": "Traducido por Chilli",
+  "menu": {
+    "subtitle": "versión prototipo",
+    "play": "Jugar",
+    "level": "Nivel {{level}}",
+    "options": "Opciones",
+    "best_time": "El mejor tiempo: {{best_time}}"
+  },
+  "interaction": {
+    "generic": "Interactuar",
+    "break": "Romper",
+    "overtake": "Tomar control",
+    "open_vent": "Abrir conducto",
+    "enter_vent": "Entrar al conducto",
+    "exit_vent": "Salir del conducto"
+  },
+  "pause": {
+    "pause": "PAUSA",
+    "options": "OPCIONES",
+    "resume": "Reanudar",
+    "volume": {
+      "master": "Volumen general",
+      "sfx": "Volumen SFX",
+      "music": "Volumen de música"
+    },
+    "rumble": "Vibración del mando",
+    "value_true": "SÍ",
+    "value_false": "NO",
+    "language": "Idioma",
+    "exit": "Salir del juego"
+  },
+  "completion": {
+    "title": "¡Has terminado el nivel!",
+    "text": "¡Has podido terminar el nivel en {{time}}!\nEl mejor tiempo: {{best_time}}.",
+    "try_again": "Intentar otra vez",
+    "next_level": "Siguiente nivel",
+    "end_game": "Terminar el juego",
+    "back_to_title": "Volver al menú"
+  },
+  "win": {
+    "title": "¡Has ganado!",
+    "text": "¡Te has pasado la demo de Overtaken! ¡Te invitamos a seguirnos en itch.io y esperamos que te haya gustado!"
+  }
+}

@@ -1,0 +1,31 @@
+[package]
+name = "game"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+tracing.workspace = true
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
+tracing-tracy = { version = "0.11.4", optional = true }
+thiserror.workspace = true
+image = "0.25.10"
+
+engine = { path = "../engine" }
+glam = "0.32.1"
+
+rand = "0.10.1"
+serde.workspace = true
+serde_json.workspace = true
+eyre = "0.6.12"
+
+dirs = "6.0.0"
+
+[target.'cfg(windows)'.dependencies]
+known-folders = "1.4.2"
+
+[features]
+tracy = ["tracing-tracy"]

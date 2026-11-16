@@ -1,0 +1,23 @@
+E0XX Generic gamepad
+E1XX Xbox gamepad
+E2XX PlayStation gamepad
+XX00 Left stick
+XX01 Left stick click
+XX10 Right stick
+XX11 Right stick click
+XX20 DPAD
+XX21 DPAD Up
+XX22 DPAD Right
+XX23 DPAD Down
+XX24 DPAD Left
+XX30 System
+XX31 North
+XX32 East
+XX33 South
+XX34 West
+XX35 Select
+XX36 Start
+XX37 L1/LB
+XX38 L2/LT
+XX39 R1/RB
+XX3A R2/RT

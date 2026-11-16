@@ -1,0 +1,148 @@
+{
+  "frame_size": [
+    16,
+    16
+  ],
+  "default_state": "idle",
+  "flip_when_facing_left": true,
+  "states": {
+    "idle": {
+      "kind": "frames",
+      "frames": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "fps": 12.0,
+      "looping": true
+    },
+    "possessable": {
+      "kind": "frames",
+      "frames": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "fps": 12.0,
+      "looping": true
+    },
+    "alerted": {
+      "kind": "frames",
+      "frames": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "fps": 12.0,
+      "looping": true
+    },
+    "possessed": {
+      "kind": "frames",
+      "frames": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "fps": 12.0,
+      "looping": true
+    },
+    "stunned": {
+      "kind": "frames",
+      "frames": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "fps": 12.0,
+      "looping": true
+    },
+    "returning": {
+      "kind": "frames",
+      "frames": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "fps": 12.0,
+      "looping": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# This patch is licensed with Apache-2.0/MIT just like the original gilrs-core.
+diff --git a/gilrs-core/src/platform/linux/gamepad.rs b/gilrs-core/src/platform/linux/gamepad.rs
+index 2eeefce..4ebc408 100644
+--- a/gilrs-core/src/platform/linux/gamepad.rs
++++ b/gilrs-core/src/platform/linux/gamepad.rs
+@@ -710,10 +710,12 @@ impl Gamepad {
+                 ff_bits.as_mut_ptr(),
+             ) >= 0
+             {
+-                utils::test_bit(FF_SQUARE, &ff_bits)
+-                    && utils::test_bit(FF_TRIANGLE, &ff_bits)
+-                    && utils::test_bit(FF_SINE, &ff_bits)
+-                    && utils::test_bit(FF_GAIN, &ff_bits)
++                // Many gamepads (including Xbox controllers) expose force feedback as FF_RUMBLE
++                // without periodic waveforms (and sometimes without FF_GAIN). Treat that as supported.
++                utils::test_bit(FF_RUMBLE, &ff_bits)
++                    || (utils::test_bit(FF_SQUARE, &ff_bits)
++                        && utils::test_bit(FF_TRIANGLE, &ff_bits)
++                        && utils::test_bit(FF_SINE, &ff_bits)) || true
+             } else {
+                 false
+             }
+@@ -1206,6 +1208,7 @@ const ABS_HAT2X: u16 = 0x14;
+ const ABS_HAT2Y: u16 = 0x15;
+ 
+ const FF_MAX: u16 = FF_GAIN;
++const FF_RUMBLE: u16 = 0x50;
+ const FF_SQUARE: u16 = 0x58;
+ const FF_TRIANGLE: u16 = 0x59;
+ const FF_SINE: u16 = 0x5a;

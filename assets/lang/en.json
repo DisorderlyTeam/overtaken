@@ -1,0 +1,80 @@
+{
+  "_lang_name": "English",
+  "_attribution": "",
+  "menu": {
+    "title": "OVERTAKEN",
+    "subtitle": "prototype build",
+    "play": "Play",
+    "level": "Level {{level}}",
+    "options": "Options",
+    "best_time": "Best time: {{best_time}}"
+  },
+  "interaction": {
+    "generic": "Interact",
+    "break": "Break",
+    "overtake": "Overtake",
+    "open_vent": "Open vent",
+    "enter_vent": "Enter vent",
+    "exit_vent": "Exit vent"
+  },
+  "pause": {
+    "pause": "PAUSE",
+    "options": "OPTIONS",
+    "resume": "Resume",
+    "volume": {
+      "master": "Master volume",
+      "sfx": "SFX volume",
+      "music": "Music volume"
+    },
+    "rumble": "Gamepad rumble",
+    "value_true": "ON",
+    "value_false": "OFF",
+    "language": "Language",
+    "exit": "Exit game"
+  },
+  "completion": {
+    "title": "Level complete!",
+    "text": "You completed the level in {{time}}!\nBest time: {{best_time}}.",
+    "try_again": "Try again",
+    "next_level": "Next level",
+    "end_game": "End game",
+    "back_to_title": "Back to title"
+  },
+  "win": {
+    "title": "You won!",
+    "text": "You managed to beat the demo of Overtaken! Check out and follow us on itch.io, we hope you liked it!"
+  },
+  "keys": {
+    "unmapped": "[unmapped]",
+    "keyboard": {
+      "enter": "[\u21B2]",
+      "template": "[{{key}}]"
+    },
+    "gamepad": {
+      "generic": {
+        "north": "\uE031",
+        "south": "\uE033",
+        "east": "\uE032",
+        "west": "\uE034",
+        "start": "\uE036",
+        "select": "\uE035"
+      },
+      "xbox": {
+        "north": "\uE131",
+        "south": "\uE133",
+        "east": "\uE132",
+        "west": "\uE134",
+        "start": "\uE136",
+        "select": "\uE135"
+      },
+      "playstation": {
+        "north": "\uE231",
+        "south": "\uE233",
+        "east": "\uE232",
+        "west": "\uE234",
+        "start": "\uE236",
+        "select": "\uE235"
+      }
+    }
+  }
+}

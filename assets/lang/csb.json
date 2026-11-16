@@ -1,0 +1,46 @@
+{
+  "_lang_name": "Kaszëbszczi",
+  "_attribution": "Przedolmaczoné przez Akino",
+  "menu": {
+    "subtitle": "wersjô prototypòwô",
+    "play": "Grôj",
+    "level": "Niw {{level}}",
+    "options": "Ùstawiéniô",
+    "best_time": "Nôlepszi czas: {{best_time}}"
+  },
+  "interaction": {
+    "generic": "Jinterakcjô",
+    "break": "Każe",
+    "overtake": "Przejimnéj",
+    "open_vent": "Òtemknij went",
+    "enter_vent": "Weńdz do wentilacëji",
+    "exit_vent": "Wińdz z wentilacëji"
+  },
+  "pause": {
+    "pause": "PAÙZA",
+    "options": "ÙSTAWIÉNIÔ",
+    "resume": "Wznów",
+    "volume": {
+      "master": "Głosnosc głównô",
+      "sfx": "Głosnosc efektów",
+      "music": "Głosnosc mùzyczi"
+    },
+    "rumble": "Wibracje gamepadu",
+    "value_true": "WŁ",
+    "value_false": "WYŁ",
+    "language": "Jãzëk",
+    "exit": "Wińdz z grë"
+  },
+  "completion": {
+    "title": "Niw ùkùńczony!",
+    "text": "Ùkùńczenié niwù zajãło cë {{time}}!\nNôlepszi czas: {{best_time}}.",
+    "try_again": "Spróbùjë jesz rôz",
+    "next_level": "Pòsobny niw",
+    "end_game": "Zakùńcz grã",
+    "back_to_title": "Nazôd do menu"
+  },
+  "win": {
+    "title": "Dobëłxs!",
+    "text": "Ùdało Cë sã przeńc demo Overtaken! Rôczëmë do zaòbserôniô nas na itch.io i mòmë nôdzejã, że Cë sã ùwidzało!"
+  }
+}

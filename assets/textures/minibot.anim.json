@@ -1,0 +1,65 @@
+{
+  "frame_size": [16, 16],
+  "default_state": "default",
+  "flip_when_facing_left": true,
+  "states": {
+    "default": {
+      "kind": "move_dependent",
+      "idle_frame": [0, 0],
+      "move_frames": [
+        [1, 0],
+        [2, 0]
+      ],
+      "fps": 6.0,
+      "looping": true
+    },
+    "possessable": {
+      "kind": "move_dependent",
+      "idle_frame": [0, 1],
+      "move_frames": [
+        [1, 1],
+        [2, 1]
+      ],
+      "fps": 6.0,
+      "looping": true
+    },
+    "alerted": {
+      "kind": "move_dependent",
+      "idle_frame": [0, 2],
+      "move_frames": [
+        [1, 2],
+        [2, 2]
+      ],
+      "fps": 6.0,
+      "looping": true
+    },
+    "possessed": {
+      "kind": "move_dependent",
+      "idle_frame": [0, 3],
+      "move_frames": [
+        [1, 3],
+        [2, 3]
+      ],
+      "fps": 6.0,
+      "looping": true
+    },
+    "stunned": {
+      "kind": "frames",
+      "frames": [
+        [0, 4]
+      ],
+      "fps": 6.0,
+      "looping": false
+    },
+    "returning": {
+      "kind": "move_dependent",
+      "idle_frame": [0, 4],
+      "move_frames": [
+        [1, 4],
+        [2, 4]
+      ],
+      "fps": 6.0,
+      "looping": true
+    }
+  }
+}
